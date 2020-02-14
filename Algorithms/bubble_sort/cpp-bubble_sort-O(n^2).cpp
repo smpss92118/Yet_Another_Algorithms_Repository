@@ -1,5 +1,8 @@
 // C++ program for implementation of Bubble sort 
-#include <bits/stdc++.h> 
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std; 
 
 void swap(int *xp, int *yp) 
@@ -33,7 +36,7 @@ void printArray(int arr[], int size)
 // Driver code 
 int main() 
 { 
-	int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
+	int arr[] = {64, 34, 25, 12, 22, 11, 90,12,57,156,2333,9756,7,1,23}; 
 	int n = sizeof(arr)/sizeof(arr[0]); 
 	bubbleSort(arr, n); 
 	cout<<"Sorted array: \n"; 
