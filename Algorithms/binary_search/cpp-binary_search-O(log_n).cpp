@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include "/Users/pengsongning/std/stdc++.h"
 
 using namespace std;
 
@@ -15,7 +15,9 @@ int main()
 	cin>>n;
 	l=0;
 	h=a.size()-1;
-
+	for (int i=0; i<6; i++){
+		cout <<"a = " << a[i]<<endl;
+	}
 	while(l<h)
 	{
 		mid=(l+h)/2;
